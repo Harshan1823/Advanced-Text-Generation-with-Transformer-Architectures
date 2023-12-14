@@ -1,14 +1,12 @@
 # Text Summarization with Transformers
 
+## Introduction
+
 In the Text-Summarisation-Lab01 notebook, we will embark on the task of dialogue summarization using generative AI models. Our focus will be on understanding the impact of different types of input text on the model's output and on the art of prompt engineering to steer the model towards our desired task.
 
 Throughout this exploration, we will engage in a comparative analysis of zero-shot, one-shot, and few-shot learning approaches. This will enable us to grasp the subtleties of how various prompting techniques influence the generative capabilities of Large Language Models (LLMs).
 
-# Installation
-Install the necessary libraries:
-pip install transformers torch
-
-# Experimentation
+## Experimentation
 The model was tested with various prompts to evaluate the effectiveness of different learning approaches:
 
 Zero-Shot Learning: The model generates a summary without any prior examples.
